@@ -1,5 +1,30 @@
+.bar {
+  fill: steelblue;
+}
+/*This just determines basic bar color.*/
 
+.bar:hover {
+  fill: green;
+}
+/*This determines mouse-over color.*/
 
+.axis {
+  font: 10px sans-serif;
+}
+/*This sets basic parameters for the axes fonts.*/
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+/*This determines the stroke and design for the axes.*/
+
+.x.axis path {
+  display: none;
+}
+/*This */
 
 .chart {
   height: 500px;
